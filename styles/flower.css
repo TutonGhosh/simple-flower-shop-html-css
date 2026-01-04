@@ -38,6 +38,10 @@
     background-color: #FFFFFF;
     border: 1px solid #E55473;
 }
+.full-width{
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
 
 /* Banner Styles */
 header{
@@ -114,9 +118,11 @@ main{
     display: inline-block;
     margin-top: 30px;
     color: rgba(39, 39, 39, 1);
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
 }
+
+/* Service Styles */
 .service{
     margin-top: 130px;
     height: 320px;
@@ -130,4 +136,38 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.service .img p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Hot Deal Styles */
+.hot-deal{
+    margin-top: 140px;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    border-radius: 10px;
+}
+.hd{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 200px;
+}
+.hd-content h2{
+    width: 537px;
+    height: 48px;
+    margin-bottom: 25px;
+}
+.hd-content h2 span{
+    color: #E55473;
+}
+.hd-content p{
+    margin-top: 0px;
+    width: 594px;
+    height: 60px;
+    margin-bottom: 30px;
 }
