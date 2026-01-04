@@ -171,3 +171,22 @@ main{
     height: 60px;
     margin-bottom: 30px;
 }
+
+/* Instagram Styles */
+.instagram{
+    margin-top: 140px;
+}
+.instagram h2{
+    margin-bottom: 25px;
+}
+.instagram p{
+    width: 594px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.instagram .ig-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
