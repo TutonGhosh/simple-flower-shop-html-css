@@ -20,6 +20,9 @@
     font-size: 18px;
     font-weight: 400;
 }
+.text-center{
+    text-align: center;
+}
 .btn-primary{
     width: 177px;
     height: 64px;
@@ -41,7 +44,7 @@ header{
     background-color: rgba(229, 84, 115, 0.1);
 }
 .banner{
-    max-width: 75%;
+    max-width: 1440px;
     margin: 0 auto;
     padding-top: 50px;
     display: flex;
@@ -54,4 +57,63 @@ header{
 }
 .banner-content p{
     margin-bottom: 30px;
+}
+
+/* Main Styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Featured Flower Styles */
+.featured{
+    margin-top: 180px;
+}
+.featured > h3{
+    margin-bottom: 25px;
+}
+.featured p{
+    width: 594px;
+    height: 60px;
+    margin: 0 auto;
+}
+.featured-flower-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.featured-flower-img .img1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.featured-flower-img .img2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.featured-flower-img .img3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.flower-img a{
+    display: inline-block;
+    margin-top: 30px;
+    color: rgba(39, 39, 39, 1);
+    font-size: 24px;
+    font-weight: 700;
 }
