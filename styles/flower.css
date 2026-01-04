@@ -39,8 +39,8 @@
     border: 1px solid #E55473;
 }
 .full-width{
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+  width: 100%;
+  margin-left: 0;
 }
 
 /* Banner Styles */
@@ -226,4 +226,28 @@ main{
     font-size: 20px;
     color: #FFFFFF;
     background-color: #E55473;
+}
+
+/* Footer Styles */
+footer{
+    margin-top: 140px;
+    background-color: rgba(17, 16, 16, 1);
+}
+.footer{
+    color: #FFFFFF;
+    padding: 130px 0px;
+}
+.footer h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.footer h2 span{
+    color: #E55473;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.9);
+    width: 625px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
